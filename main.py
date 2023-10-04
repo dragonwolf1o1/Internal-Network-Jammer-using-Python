@@ -2,6 +2,28 @@ import time
 from scapy.all import *
 import subprocess
 from colorama import Fore, Back, Style
+
+print(Fore.CYAN+"            **             **             **             **   **             **   ** * * * * * *    ** * * * * * ")
+print(Fore.CYAN+"            **           **  **           ****         ****   *****        ****   ** * * * * * *    ** * * * * * *")
+print(Fore.CYAN+"            **          **    **          **  **      ** **   **  **      ** **   **                **           **")
+print(Fore.CYAN+"            **         **      **         **   **    **  **   **   **    **  **   **                **           **")
+print(Fore.CYAN+"            **        **        **        **    **  **   **   **    **  **   **   ** * * *          **          **")
+print(Fore.CYAN+"            **       **************       **     ****    **   **     ****    **   ** * * *          ** ** ** ** **")
+print(Fore.CYAN+"   **       **      **            **      **             **   **             **   **                **         ** ")
+print(Fore.CYAN+"   **       **     **              **     **             **   **             **   **                **          **")
+print(Fore.CYAN+"    **     **     **                **    **             **   **             **   ** * * * * * *    **           **")
+print(Fore.CYAN+"     ** ** **    **                  **   **             **   **             **   ** * * * * * *    **            **")
+
+
+print(Fore.MAGENTA+"     * * * *     **        **  ** ** ** ** ** ** ** * ** ** ** ** **   ** ** ** ** ** **   ** ** ** ** ** ** **    ***        **      ** ** ** **")
+print(Fore.MAGENTA+"   **            ** **     **           **            **               **                           **             ****      **    **")
+print(Fore.MAGENTA+"   **            **  **    **           **            **               **                           **             **  **    **   **")
+print(Fore.MAGENTA+"    * * * *      **   **   **           **            ** ** ** **      ** ** ** ** *                **             **   **   **  **")
+print(Fore.MAGENTA+"           **    **    **  **           **            **               **                           **             **    **  ** **    ** ** ** **")
+print(Fore.MAGENTA+"            **   **     ** **           **            **               **                           **             **     ** **  **             **")
+print(Fore.MAGENTA+"    *  *  **     **      ****           **            **               **                           **             **      ****   **           **")
+print(Fore.MAGENTA+"    * * * *      **        **  ** ** ** ** ** ** **   **               **                  ** ** ** ** ** ** **    **       ***     ** ** ** **")
+
 def jamming():
     sip=input(Fore.BLUE+"Enter router's default gateway:\t")
     disp=input(Fore.BLUE+"Enter the Victim IP address:\t")
