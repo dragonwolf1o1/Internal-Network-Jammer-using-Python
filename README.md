@@ -7,7 +7,7 @@
 * Only the Jamming part works in the Windows operating system not the sniffing part but both Jamming and sniffing work in the Linux operating system.
 * The recommended version of Python is ```Python3```.
 * The motive to create this tool is that 'many people don't have Wi-Fi adapters so they can't perform deauth on any wifi network but this tool provides stability'.
-* New feature is provided time to time in this tool, so please follow and check.
+* A new feature is provided from time to time in this tool, so please follow and check.
 
 ## Working:
 
@@ -17,8 +17,14 @@
 
 ### Sniffing:
 * In the case of sniffing we use ```sysctl -w net.ipv4.ip_forward=1``` this command to sniff.
+* This above command is forwarded victim's network over the internet via your system.
 * Attacker is the mediator between the victim and the router so you can see all packets coming through the victim.
 * You use multiple applications to see the packet but I recommended ```Wireshark``.
+
+## Instruction
+* You see the victim's IP & MAC address using ```arp -a``` command.
+* If the above command is not working then you use ```Nmap```, ```arp-scan```, ```netdiscover```
+* The users who are connected to your network.
 
 ## Installation:
 
